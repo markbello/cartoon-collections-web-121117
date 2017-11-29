@@ -18,6 +18,6 @@ def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each_with_index{|type|
-    arr.include?(type)
+    arr.find(type)
   }
 end
