@@ -18,6 +18,6 @@ def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   arr.each{|word|
-    cheese_types.find(word)
+    return cheese_types.find(word)
   }
 end
