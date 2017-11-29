@@ -18,5 +18,5 @@ def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   test = arr & cheese_types
-  test.count > 0 ? test[0]
+  return test[0]
 end
